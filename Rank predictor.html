@@ -1,0 +1,48 @@
+<!Doctype html>
+<html>
+<head><title>Rank Calculator </title>
+<style>
+h1{color: teal;
+font-size: 150px;
+text-align: center;
+opacity: 0.8;
+background-color: black;
+border: solid;
+font-family:"Comic Sans MS", cursive, sans-serif;
+border-radius: 50px;}
+form{
+    color: orange;
+    margin-left: 150px;
+    font-size: 50px;
+    border: solid;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    border-radius: 16px;
+clear: both;
+opacity: 0.8;
+background-color: black;
+width: 2000px;}
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid orange;
+    border-radius: 16px;
+    float: right;
+    height: 100px;}
+body {
+    background-image: url("jkl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;}
+</style></head>
+<body>
+	<h1>RANK CALCULATOR</h1>
+	<form action="/head/" method="POST" >
+		FIRST NAME:             <input type="text" name="fname" placeholder="FIRST NAME" required="">
+		<br><br>E-MAIL:		        <input type="email" name="email" placeholder="xyz@gmail.com" required>
+		<br><br>EXPECTED MARKS: 	<input type="number" name="MARKS" placeholder="Expected Marks" required max="360" min="-90">
+		<br><br>MOBILE NUMBER:		<input type="number" name="MOBILE NUMBER" placeholder="_____-_____" required max="9999999999" min="1111111111"><br><br>    
+		<input type="submit" value="Submit" style=" color: white; background: teal; width: 20%; opacity: 1 " >
+	</form>
+</body>
+</html>
