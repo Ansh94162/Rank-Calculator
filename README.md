@@ -1,2 +1,2 @@
-# Rank-Calculator
-JEE Rank Calculator
+# Rank-Predictor
+JEE Rank Predictor
